@@ -15,5 +15,5 @@ jobs:
 
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HUGGING_FACE_TOKEN }}
-        run: git push https://rahulsg1:$HUGGING_FACE_TOKEN@huggingface.co/spaces/rahulsg1/AI_Tutor main
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push https://rahulsg1:$HF_TOKEN@huggingface.co/spaces/rahulsg1/AI_Tutor main
