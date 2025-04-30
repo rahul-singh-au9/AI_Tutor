@@ -1,0 +1,11 @@
+🧠 Core Components
+Core Libraries Used:
+gradio – UI framework
+
+llama_index – Agent & RAG framework
+
+chromadb – Vector DB for document embeddings
+
+huggingface_hub – To download the knowledge base
+
+dotenv – To manage environment variables
